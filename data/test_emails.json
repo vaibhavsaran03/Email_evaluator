@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "category": "subscription_cancellation",
+    "customer_email": "Hi, I forgot to cancel my subscription before renewal. Can I still receive a refund?",
+    "reference_reply": "Hello,\n\nThank you for reaching out. I understand how frustrating this situation can be. While I can't confirm refund eligibility without reviewing your account, we'll be happy to check your subscription details and determine whether you're eligible under our billing policy. Please share your account email if needed, and we'll assist you further.\n\nBest regards,\nSupport Team"
+  },
+  {
+    "id": 2,
+    "category": "password_reset",
+    "customer_email": "I'm unable to log in after resetting my password.",
+    "reference_reply": "Hello,\n\nI'm sorry you're still having trouble logging in. Please ensure you're using the latest password and clear your browser cache before trying again. If the issue persists, let us know the email associated with your account and we'll investigate further.\n\nBest regards,\nSupport Team"
+  },
+  {
+    "id": 3,
+    "category": "damaged_product",
+    "customer_email": "My package arrived damaged. What should I do?",
+    "reference_reply": "Hello,\n\nI'm sorry to hear your package arrived damaged. Please reply with a few photos of the damaged item and packaging so we can review the issue. Once we receive them, we'll guide you through the replacement or refund process according to our policy.\n\nBest regards,\nSupport Team"
+  }
+]

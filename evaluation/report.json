@@ -1,0 +1,62 @@
+{
+    "average_score": 94.53,
+    "responses": [
+        {
+            "id": 1,
+            "category": "subscription_cancellation",
+            "customer_email": "Hi, I forgot to cancel my subscription before renewal. Can I still receive a refund?",
+            "generated_reply": "Hi there,\n\nThank you for reaching out to us. I understand it can be frustrating when a subscription renews unexpectedly, and I'm sorry to hear you forgot to cancel before your renewal date.\n\nRegarding your question about a refund, we would be happy to review your account and the details of your recent renewal to explore the available options.\n\nTo assist you further, could you please provide the email address associated with your account? Once we have that, we can look into your specific situation and guide you through the next steps. We're here to help make this right for you.\n\nBest regards,\nCustomer Support Team",
+            "reference_reply": "Hello,\n\nThank you for reaching out. I understand how frustrating this situation can be. While I can't confirm refund eligibility without reviewing your account, we'll be happy to check your subscription details and determine whether you're eligible under our billing policy. Please share your account email if needed, and we'll assist you further.\n\nBest regards,\nSupport Team",
+            "semantic_similarity": 0.7842,
+            "rule_score": 1.0,
+            "safety_score": 1.0,
+            "llm_judge": {
+                "correctness": 10,
+                "completeness": 9,
+                "professionalism": 10,
+                "tone": 10,
+                "hallucination": 10,
+                "reason": "The generated reply is highly correct, directly addressing the customer's query and outlining the necessary next steps. It maintains excellent professionalism and a perfectly empathetic and helpful tone. It avoids any hallucination by not making promises or stating policies without account review. It's slightly less explicit about 'billing policy' than the reference, but still very complete for an initial response."
+            },
+            "overall_score": 93.61
+        },
+        {
+            "id": 2,
+            "category": "password_reset",
+            "customer_email": "I'm unable to log in after resetting my password.",
+            "generated_reply": "Hello,\n\nThank you for reaching out. I'm truly sorry to hear you're unable to log in after resetting your password; I understand how frustrating that can be.\n\nThis can sometimes happen due to a few common reasons. Please try the following steps:\n\n1.  **Double-check your new password:** Ensure you are typing the new password exactly as you set it, paying close attention to capitalization and any special characters. Also, confirm that your Caps Lock key is not accidentally on.\n2.  **Clear browser cache:** Old data in your browser can sometimes interfere. Please try clearing your browser's cache and cookies, or attempt to log in using an Incognito/Private browsing window.\n\nIf you're still experiencing issues after trying these steps, please let us know, and we'll be happy to investigate further for you.\n\nBest regards,\nCustomer Support Team",
+            "reference_reply": "Hello,\n\nI'm sorry you're still having trouble logging in. Please ensure you're using the latest password and clear your browser cache before trying again. If the issue persists, let us know the email associated with your account and we'll investigate further.\n\nBest regards,\nSupport Team",
+            "semantic_similarity": 0.7875,
+            "rule_score": 1.0,
+            "safety_score": 1.0,
+            "llm_judge": {
+                "correctness": 10,
+                "completeness": 9,
+                "professionalism": 10,
+                "tone": 10,
+                "hallucination": 10,
+                "reason": "The generated reply is excellent. It's highly empathetic, provides more detailed and actionable troubleshooting steps than the reference (e.g., Incognito mode, Caps Lock check), and maintains a professional and reassuring tone. It clearly outlines the next steps if the initial suggestions don't resolve the issue. The only minor point is that it doesn't explicitly ask for the associated email for further investigation like the reference, but it's implied they would ask for it."
+            },
+            "overall_score": 93.69
+        },
+        {
+            "id": 3,
+            "category": "damaged_product",
+            "customer_email": "My package arrived damaged. What should I do?",
+            "generated_reply": "Hello,\n\nI am truly sorry to hear that your package arrived damaged. I understand how disappointing and frustrating it can be to receive an item in anything less than perfect condition.\n\nTo help us understand the situation and determine the best way to assist you, could you please provide your order number? It would also be very helpful if you could describe the damage and, if possible, attach any photos of the package and its contents.\n\nOnce we have this information, we can promptly investigate and guide you through the next steps to resolve this for you. We are committed to ensuring you receive your items in excellent condition.\n\nThank you for your patience as we look into this.\n\nSincerely,\nCustomer Support Team",
+            "reference_reply": "Hello,\n\nI'm sorry to hear your package arrived damaged. Please reply with a few photos of the damaged item and packaging so we can review the issue. Once we receive them, we'll guide you through the replacement or refund process according to our policy.\n\nBest regards,\nSupport Team",
+            "semantic_similarity": 0.8911,
+            "rule_score": 1.0,
+            "safety_score": 1.0,
+            "llm_judge": {
+                "correctness": 10,
+                "completeness": 9,
+                "professionalism": 10,
+                "tone": 10,
+                "hallucination": 10,
+                "reason": "The generated reply is highly empathetic and professional. It correctly identifies the issue and asks for all necessary information (order number, description, photos) to proceed, which is a more comprehensive first step than the reference. It doesn't explicitly state 'replacement or refund' as the final outcome, but clearly outlines the process to resolve the issue."
+            },
+            "overall_score": 96.28
+        }
+    ]
+}
